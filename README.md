@@ -19,7 +19,7 @@ DS-Ads is a Minecraft plugin designed to enhance your server's advertisement cap
 
 ## Configuration
 
-The configuration file (`config.yml`) includes settings for plugin behavior, permissions, and customizable messages. Below is an example of the configuration options:
+The configuration file (`Settings.yml`) includes settings for plugin behavior, permissions, and customizable messages. Below is an example of the configuration options:
 
 ```yaml
 # Plugin Settings, you can edit them according to your needs.
