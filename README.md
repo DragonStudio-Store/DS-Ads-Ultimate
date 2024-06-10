@@ -108,8 +108,8 @@ We welcome contributions from the community! If you have ideas for new features,
 
 If you need help with the plugin, you can:
 
-1. Check the [Wiki](https://github.com/yourusername/DS-Ads/wiki) for detailed documentation.
-2. Join our [Discord server](https://discord.gg/yourdiscord) to ask questions and get support from the community.
+1. Check the [Wiki](https://wiki.dragonstudio.site) for detailed documentation.
+2. Join our [Discord server](https://discord.dragonstudio.site) to ask questions and get support from the community.
 3. Open an issue on GitHub if you find any bugs or have feature requests.
 
 ## Code of Conduct
