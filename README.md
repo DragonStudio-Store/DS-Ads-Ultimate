@@ -1,4 +1,4 @@
-# DS-Ads Plugin
+# DS-Ads Ultimate
 
 DS-Ads is a Minecraft plugin designed to enhance your server's advertisement capabilities. With DS-Ads, you can send customized ads to players via chat, boss bars, action bars, and titles. This plugin is fully configurable and supports permissions for managing who can send and manage ads.
 
