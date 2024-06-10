@@ -1,0 +1,5 @@
+name: DS-Ads-Bungee
+version: '${version}'
+main: site.dragonstudio.ads.bungee.Main
+author: ZxyretrohackyxZ & DragonStudio Store
+description: A simple but effective plugin to send ads to your players

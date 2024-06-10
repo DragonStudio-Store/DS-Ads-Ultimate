@@ -1,0 +1,167 @@
+# Version of the configuration file, do not
+# modify this file or you will disrupt the
+# version and a new file will be created.
+Plugin-Version: 6.0
+
+# Plugin Settings, you can edit them according to your needs.
+# The Disable-MCJoinLeave-Messages key disables the default join and leave messages on the server.
+Plugin-Configuration:
+  Enabled: true
+  Disable-MCJoinLeave-Messages: true
+
+# Plugin permissions
+Plugin-Permissions:
+  Send-Ads: ads.send
+  Manage-Ads: ads.manage
+  Reload-Plugin: ads.reload
+
+# Plugin messages, you can edit them according to your needs.
+Messages:
+  Prefix: "<yellow>DS-<red>ADS <dark_gray><bold>» <reset>"
+  No-Perms: "<red>You dont have permissions to run this command"
+  No-Subcmd: "<red>This command doesnt exist"
+  No-Ad-Found: "<red>This ad doesnt exist"
+  No-Player-Found: "<red>This player doesnt exist"
+  Ad-Failed: "<red>Error sending ad to player"
+  Reloaded-Sucess: "<green>Config was reloaded correctly"
+  Only-players: "<red>This command can only be used by players"
+  Disabled-Plugin: "<red>The plugin was successfully disabled"
+  Already-Disabled-Plugin: "<red>The plugin is already disabled"
+  Enabled-Plugin: "<green>The plugin was successfully enabled"
+  Already-Enabled-Plugin: "<red>The plugin is already enabled"
+  Everyone-Send: "<green>Ad sent to all players"
+  Player-Send: "<green>Ad sent correctly to the player"
+  Usage: "<yellow>Usage: /ads send <AdName> <Player/*>"
+
+Welcome-Ad:
+  Enabled: true
+  WelcomeAd-Content:
+    # / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / /
+    Chat:
+      Enabled: true
+      Sound: BLOCK_NOTE_BLOCK_PLING
+      Ad-content:
+        - ''
+        - '<dark_gray><st>-----------------------------------------------------'
+        - ''
+        - '<center><aqua><bold>Welcome %player_name%</bold></aqua></center>'
+        - ''
+        - '<center><gray>Thank you for downloading the plugin</gray></center>'
+        - ''
+        - '<dark_gray><st>-----------------------------------------------------'
+    Bossbar:
+      Enabled: true
+      Message: "<dark_purple>Welcome %player_name%!</dark_purple>"
+      Color: PINK
+      Style: SOLID
+    Actionbar:
+      Enabled: true
+      Message: "<red>Welcome to DragonStudio</red>"
+    Title:
+      Enabled: true
+      Title: "<blue>DS-Ads</blue>"
+      Subtitle: "<yellow>Thanks for another opportunity!</yellow>"
+      FadeIn: 10
+      Stay: 70
+      FadeOut: 20
+
+# Advertisement configuration, you can set up as many as
+# you want with restrictions that suit your needs
+# Advertisement configuration, you can set up as many as you want with restrictions that suit your needs
+Ads-Configuration:
+  Ads-Cooldown: 15 # In Seconds, For all ads
+  Ad-Example-1:
+    worlds:
+      - world
+    permission: ads.ad1
+    Chat:
+      Enabled: true
+      Sound: BLOCK_NOTE_BLOCK_PLING
+      Ad-content:
+        - ''
+        - '<dark_gray><st>-----------------------------------------------------'
+        - ''
+        - '<center><aqua><bold>Hi %player_name%</bold></aqua></center>'
+        - ''
+        - '<center><gray>What do you think of this plugin?</gray></center>'
+        - ''
+        - '<dark_gray><st>-----------------------------------------------------'
+    Bossbar:
+      Enabled: true
+      Message: "<gradient:#ff5555:#5555ff>Look, a Bossbar with MiniMessage</gradient>"
+      Color: PINK
+      Style: SOLID
+    Actionbar:
+      Enabled: true
+      Message: "<gradient:#55ff55:#5555ff>And here you have one in ActionBar</gradient>"
+    Title:
+      Enabled: true
+      Title: "<blue>DS-Ads</blue>"
+      Subtitle: "<yellow>Thanks for another opportunity!</yellow>"
+      FadeIn: 10
+      Stay: 70
+      FadeOut: 20
+
+  Ad-Example-2:
+    worlds:
+      - world_nether
+    permission: ads.ad2
+    Chat:
+      Enabled: true
+      Sound: ENTITY_ENDER_DRAGON_GROWL
+      Ad-content:
+        - ''
+        - '<dark_gray><st>-----------------------------------------------------'
+        - ''
+        - '<center><red><bold>Explore the Nether</bold></red></center>'
+        - ''
+        - '<center><gray>Discover new challenges</gray></center>'
+        - ''
+        - '<dark_gray><st>-----------------------------------------------------'
+    Bossbar:
+      Enabled: true
+      Message: "<gradient:#ffaa00:#ff00aa>Brave the Nether</gradient>"
+      Color: RED
+      Style: SEGMENTED_10
+    Actionbar:
+      Enabled: true
+      Message: "<gradient:#ff5555:#ffaa00>Watch out for the Ghasts!</gradient>"
+    Title:
+      Enabled: true
+      Title: "<dark_red>Nether Adventures</dark_red>"
+      Subtitle: "<gold>Are you ready?</gold>"
+      FadeIn: 20
+      Stay: 100
+      FadeOut: 30
+
+  Ad-Example-3:
+    worlds:
+      - world_the_end
+    permission: ads.ad3
+    Chat:
+      Enabled: true
+      Sound: ENTITY_ENDERMAN_SCREAM
+      Ad-content:
+        - ''
+        - '<dark_gray><st>-----------------------------------------------------'
+        - ''
+        - '<center><light_purple><bold>Conquer the End</bold></light_purple></center>'
+        - ''
+        - '<center><gray>Ultimate challenge awaits</gray></center>'
+        - ''
+        - '<dark_gray><st>-----------------------------------------------------'
+    Bossbar:
+      Enabled: true
+      Message: "<gradient:#5b00a4:#a400a4>Defeat the Ender Dragon</gradient>"
+      Color: PURPLE
+      Style: SEGMENTED_6
+    Actionbar:
+      Enabled: true
+      Message: "<gradient:#a4005b:#5b00a4>End Cities and Shulkers</gradient>"
+    Title:
+      Enabled: true
+      Title: "<dark_purple>End Exploration</dark_purple>"
+      Subtitle: "<light_purple>Gather your gear!</light_purple>"
+      FadeIn: 15
+      Stay: 150
+      FadeOut: 40

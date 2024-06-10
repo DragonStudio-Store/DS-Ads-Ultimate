@@ -1,0 +1,26 @@
+name: DS-Ads
+version: '${version}'
+main: site.dragonstudio.ads.spigot.Main
+api-version: '1.13'
+load: STARTUP
+softdepend: [PlaceholderAPI]
+authors: [ZxyretrohackyxZ]
+description: The best plugin for ads via Spigot/BungeeCord!
+website: https://discord.dragonstudio.site
+
+libraries:
+  - "net.kyori:adventure-api:4.16.0"
+  - "net.kyori:adventure-text-minimessage:4.16.0"
+  - "net.kyori:adventure-text-serializer-plain:4.16.0"
+  - "net.kyori:adventure-text-serializer-legacy:4.16.0"
+  - "net.kyori:adventure-text-serializer-ansi:4.16.0"
+  - "net.kyori:adventure-text-serializer-gson-legacy-impl:4.16.0"
+  - "net.kyori:adventure-text-serializer-gson:4.16.0"
+  - "net.kyori:adventure-text-serializer-json-legacy-impl:4.16.0"
+  - "net.kyori:adventure-text-serializer-json:4.16.0"
+  - "net.kyori:adventure-text-serializer-legacy:4.16.0"
+  - "net.kyori:adventure-text-serializer-plain:4.16.0"
+
+commands:
+  ads:
+    description: "Comando principal del plugin"

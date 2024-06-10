@@ -1,0 +1,101 @@
+# Version of the configuration file, do not
+# modify this file or you will disrupt the
+# version and a new file will be created.
+Plugin-Version: "6.0"
+
+# Plugin Settings, you can edit them according to your needs.
+Plugin-Configuration:
+  Enabled: true
+
+# Plugin permissions
+Plugin-Permissions:
+  Send-Ads: ads.send
+  Manage-Ads: ads.manage
+  Reload-Plugin: ads.reload
+
+# Plugin messages, you can edit them according to your needs.
+Messages:
+  Prefix: "<yellow>DS-<red>ADS <dark_gray><bold>» <reset>"
+  No-Perms: "<red>You dont have permissions to run this command"
+  No-Subcmd: "<red>This command doesnt exist"
+  No-Ad-Found: "<red>This ad doesnt exist"
+  No-Player-Found: "<red>This player doesnt exist"
+  Ad-Failed: "<red>Error sending ad to player"
+  Reloaded-Sucess: "<green>Config was reloaded correctly"
+  Only-players: "<red>This command can only be used by players"
+  Disabled-Plugin: "<red>The plugin was successfully disabled"
+  Already-Disabled-Plugin: "<red>The plugin is already disabled"
+  Enabled-Plugin: "<green>The plugin was successfully enabled"
+  Already-Enabled-Plugin: "<red>The plugin is already enabled"
+  Everyone-Send: "<green>Ad sent to all players"
+  Player-Send: "<green>Ad sent correctly to the player"
+  Usage: "<yellow>Usage: /ads send <AdName> <Player/*>"
+
+Welcome-Ad:
+  Enabled: true
+  WelcomeAd-Content:
+    # / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / /
+    Chat:
+      Enabled: true
+      Ad-content:
+        - ''
+        - '<dark_gray><st>-----------------------------------------------------'
+        - ''
+        - '<center><aqua><bold>Welcome %player_name%</bold></aqua></center>'
+        - ''
+        - '<center><gray>Thank you for joining our server network</gray></center>'
+        - ''
+        - '<dark_gray><st>-----------------------------------------------------'
+
+# Advertisement configuration, you can set up as many as
+# you want with restrictions that suit your needs
+# Advertisement configuration, you can set up as many as you want with restrictions that suit your needs
+Ads-Configuration:
+  Ads-Cooldown: 15 # In Seconds, For all ads
+  Ad-Example-1:
+    Servers:
+      - Survival
+    permission: ads.ad1
+    Chat:
+      Enabled: true
+      Ad-content:
+        - ''
+        - '<dark_gray><st>-----------------------------------------------------'
+        - ''
+        - '<center><aqua><bold>Survival Server</bold></aqua></center>'
+        - ''
+        - '<center><gray>Explore the vast wilderness and build your own home!</gray></center>'
+        - ''
+        - '<dark_gray><st>-----------------------------------------------------'
+
+  Ad-Example-2:
+    Servers:
+      - PvP
+    permission: ads.ad2
+    Chat:
+      Enabled: true
+      Ad-content:
+        - ''
+        - '<dark_gray><st>-----------------------------------------------------'
+        - ''
+        - '<center><red><bold>PvP Server</bold></red></center>'
+        - ''
+        - '<center><gray>Test your combat skills against other players!</gray></center>'
+        - ''
+        - '<dark_gray><st>-----------------------------------------------------'
+
+  Ad-Example-3:
+    Servers:
+      - Creative
+    permission: ads.ad3
+    Chat:
+      Enabled: true
+      Ad-content:
+        - ''
+        - '<dark_gray><st>-----------------------------------------------------'
+        - ''
+        - '<center><light_purple><bold>Creative Server</bold></light_purple></center>'
+        - ''
+        - '<center><gray>Let your imagination run wild and build anything you can imagine!</gray></center>'
+        - ''
+        - '<dark_gray><st>-----------------------------------------------------'
