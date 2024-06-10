@@ -14,7 +14,7 @@ DS-Ads is a Minecraft plugin designed to enhance your server's advertisement cap
 1. Download the latest version of the DS-Ads plugin.
 2. Place the plugin jar file in your server's `plugins` directory.
 3. Restart your server to generate the default configuration files.
-4. Edit the `config.yml` file to customize the plugin settings to your needs.
+4. Edit the `Settings.yml` file to customize the plugin settings to your needs.
 5. Use the `/ads reload` command to apply the changes without restarting the server.
 
 ## Configuration
